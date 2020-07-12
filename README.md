@@ -32,7 +32,7 @@ This sniffing method allows the analysis of the ZWave network on an application 
 
 ## Serial API variant
 - Prerequisits: SerialAPI extcap and dissectors installed, strace compatible Unix system 
-- start zw-sapi-tap.py with your serial device as argument
+- start zw-sapi-tap.py in contrib/ folder with your serial device as argument
 - the zw-sapi-tap will tap the communication by sniffing all read/write syscalls for the file descriptor of your
 opened ZWave device and will provide the data as a TCP server on port 4201.
 - open wireshark
